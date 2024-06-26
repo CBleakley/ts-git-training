@@ -1,4 +1,3 @@
-
 export const computeFibonacciNumber = (position: number, isRecursive: boolean = false): number => {
     if (isRecursive) return recursiveFibonacci(position);
 
